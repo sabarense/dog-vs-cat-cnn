@@ -1,0 +1,60 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+venv/
+.env/
+.env.local
+
+### TensorFlow/Keras ###
+# Checkpoints e modelos
+*.index
+*.data-00000-of-00001
+*.meta
+*.h5
+*.keras
+
+### Datasets ###
+/dataset/
+/test1/
+/train/
+!dataset/external_test/
+
+### Logs e métricas ###
+logs/
+*.log
+*.csv
+*.parquet
+training_metrics.png
+
+### IDEs ###
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### Sistemas Operacionais ###
+.DS_Store
+Thumbs.db
+
+### Imagens temporárias ###
+*.png
+*.jpg
+*.jpeg
+
+### Configurações locais ###
+local_settings.py
+settings.json
+
+### Arquivos de treino temporários ###
+checkpoints/
+best_model.keras
+dogs_vs_cats_final.keras
+
+### Outros ###
+*.egg-info/
+dist/
+build/
