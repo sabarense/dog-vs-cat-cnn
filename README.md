@@ -1,4 +1,4 @@
-# Classificação Binária de Imagens: Cães vs Gatos
+# # Dogs vs Cats with CNN: Image Classification Project
 
 Este projeto implementa um pipeline completo para classificação binária de imagens, distinguindo cães e gatos com alta precisão usando Redes Neurais Convolucionais (CNNs) em Python. Inclui scripts para organização automática do dataset, pré-processamento, modelagem, treinamento, avaliação e documentação técnica em LaTeX.
 
