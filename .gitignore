@@ -28,7 +28,6 @@ logs/
 *.log
 *.csv
 *.parquet
-training_metrics.png
 
 ### IDEs ###
 .vscode/
@@ -39,11 +38,6 @@ training_metrics.png
 ### Sistemas Operacionais ###
 .DS_Store
 Thumbs.db
-
-### Imagens temporárias ###
-*.png
-*.jpg
-*.jpeg
 
 ### Configurações locais ###
 local_settings.py
