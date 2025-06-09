@@ -15,7 +15,7 @@ Este projeto implementa um pipeline completo para classificação binária de im
 
 3. Execute o script de preparação:
 
-bash download_data.sh
+`bash download_data.sh`
 
 O script irá criar as pastas, mover e extrair os arquivos zip, e organizar as imagens em `dataset/train/` e `dataset/test1/`.
 
@@ -23,12 +23,11 @@ O script irá criar as pastas, mover e extrair os arquivos zip, e organizar as i
 
 pip install -r requirements.txt
 
-
 ### 3. Treinamento e Avaliação
 
 Execute o script principal para treinar e avaliar o modelo:
 
-python main.py
+`python main.py`
 
 - O script divide os dados em treino, validação e teste (70-15-15), faz aumento de dados e normalização, treina a CNN e salva métricas, gráficos e o modelo treinado.
 
